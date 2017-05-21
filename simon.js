@@ -218,18 +218,18 @@ $(document).ready(function() {
     }
   });
 
-});
+  $('#off').click(function click() {
+    for (var i = 0;i<=simon.sequence.length;i++){
+          clearTimeout(simon.timerArr[i]);
+    }
+    clearTimeout(simon.timer);
+    simon.sequence = [];
+    simon.playerSequence = [];
+    simon.started = false;
+    simon.clickTime = false;
+    $('#count').html('-');
+    $('#info').html('Start');
 
-$('#off').click(function() {
-  for (var i = 0;i<=simon.sequence.length;i++){
-        clearTimeout(simon.timerArr[i]);
-  }
-  clearTimeout(simon.timer);
-  simon.sequence = [];
-  simon.playerSequence = [];
-  simon.started = false;
-  simon.clickTime = false;
-  $('#count').html('-');
-  $('#info').html('Start');
+  });
 
 });
