@@ -1,0 +1,138 @@
+.main{
+  width: 400px;
+  height: 400px;
+  margin-left:auto;
+  margin-right:auto;
+  top:50px;
+  position:relative;
+}
+
+.inner{
+  width: 60%;
+  height: 60%;
+  top: 20%;
+  left: 20%;
+
+  background-color:#CCC;
+  border: 10px solid #111;
+  border-radius: 50%;
+  position:absolute;
+
+  z-index:1;
+  text-align:center;
+  padding-top:20px;
+}
+
+p{
+  margin:0;
+  padding:0;
+}
+
+.simon{
+  font-size:3em;
+  margin-top:10%;
+  font-family: 'Rubik', sans-serif;
+  font-weight:bold;
+  color:#111;
+
+}
+
+.button-section{
+  width:90%;
+  margin-left:10%;
+}
+
+.box{
+  position:relative;
+  width: 30%;
+  float:left;
+}
+
+#off{
+  font-family: 'Rubik', sans-serif;
+  font-weight:bold;
+  color:#000;
+  background-color:#88F;
+  width: 30px;
+  height: 20px;
+  font-size: 10px;
+  line-height:10px;
+  text-align:center;
+  margin-bottom:5px;
+  padding:0;
+  border-color:#000;
+
+
+}
+
+
+#start{
+  width: 40px;
+  height: 40px;
+  background-color:#E33;
+  border-radius:40%;
+  border-width:3px;
+  border-color:#000;
+  margin-bottom:0px;
+}
+
+#strict{
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+  background-color:#cc00cc;
+  border: 1px solid #000;
+  border-style: outset;
+  border-width:3px;
+  margin-bottom:-6px;
+}
+
+#count{
+  display:inline-block;
+  width: 40px;
+  height: 30px;
+  border-radius:10%;
+  background-color:#000;
+  font-family: 'Press Start 2P', cursive;
+  color:#0F0;
+  text-align:center;
+  line-height:30px;
+}
+
+span{
+  font-family: 'Rubik', sans-serif;
+  color:#000;
+}
+
+/*colored sections*/
+.color{
+  width: 50%;
+  height: 50%;
+  border-style: solid;
+  border-color: #222;
+  float: left;
+}
+
+.red{
+  border-width: 20px 20px 10px 10px;
+  border-radius: 0 100% 0 0;
+  background-color: #B22;
+}
+.blue{
+  border-width: 10px 20px 20px 10px;
+  border-radius: 0 0 100% 0;
+  background-color: #44B;
+}
+.yellow{
+  border-width: 10px 10px 20px 20px;
+  border-radius: 0 0 0 100%;
+  background-color: #DD3;
+}
+.green{
+  border-width: 20px 10px 10px 20px;
+  border-radius: 100% 0 0 0;
+  background-color: #3C3;
+}
+
+::-moz-selection {}
+::selection {}
